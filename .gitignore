@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.venv/
+env/
+voicemods/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated audio (don't commit test recordings or outputs)
+compressed/
+*_compressed.*
